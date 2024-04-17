@@ -1,6 +1,6 @@
 {
     "name": "lideres/raven-php",
-    "description": "Transform any text file to UTF8",
+    "description": "Transform any text file codification to UTF8",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -12,5 +12,7 @@
             "name": "Victor Sandoval"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.1"
+    }
 }

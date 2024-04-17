@@ -1,0 +1,16 @@
+{
+    "name": "lideres/raven-php",
+    "description": "Transform any text file to UTF8",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lideres\\RavenPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Sandoval"
+        }
+    ],
+    "require": {}
+}

@@ -2,6 +2,7 @@
     "name": "lideres/raven-php",
     "description": "Transform any text file codification to UTF8",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Lideres\\RavenPhp\\": "src/"

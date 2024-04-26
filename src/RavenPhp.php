@@ -12,14 +12,17 @@ class RavenPhp
             $command = str_replace("\src", "\bin\main.exe \"$path\"", $dir);
         } else {
             $command = str_replace("\src", "./bin/main \"$path\"", $dir);
+            dump($command);
         }
 
         try{
             $output = array();
             exec($command, $output);
+            dump($output);
             return str_contains('successfully', $output[0]);
         }catch (\Throwable $e) {
 
+            dump($e->getMessage());
             return $e->getMessage();
         }
     }

@@ -3,7 +3,7 @@ namespace Lideres\RavenPhp;
 
 class RavenPhp
 {
-    public function transform(string $path, string $outputPath = null): bool | string
+    public function transform(string $path, string $outputPath = ''): bool | string
     {
         $path = escapeshellarg($path);
         $dir = __DIR__;
